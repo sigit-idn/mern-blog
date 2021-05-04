@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-page {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.right {
+  width: 460px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 20px;
+  }
+}

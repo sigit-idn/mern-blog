@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #68b35c;
+    align-items: center;
+    color: white;
+    
+    p {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    a {
+        color: white;
+        font-size: 18px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

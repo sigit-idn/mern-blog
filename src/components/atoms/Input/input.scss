@@ -1,0 +1,19 @@
+div {
+    text-align: left;
+
+    label {
+        font-size: 16px;
+        display: block;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+    
+    input {
+        border: 1px solid gray;
+        padding: 12px;
+        border-radius: 8px;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
